@@ -1,0 +1,10 @@
+NICOLAS FAGUNDES MENDONÇA 344411  EMANUEL RUSCHEL RAUTER 578247
+Descrição:
+O nosso trabalho consiste na recriação do jogo FlappyBird na plataforma Codeblocks através do uso da biblioteca Raylib. 
+O nosso jogo, intitulado Flappy.INF, é o resultado de muitas horas de trabalho e esperamos que você goste dele.
+Como utilizar:
+Ao entrar no jogo, você verá que a opção de jogar estará inicialmente indisponível, é necessário entrar na opção de dificuldade
+e digitar o arquivo .txt desejado. Caso você queira adiconar alguma nova dificuldade, insira o novo arquivo .txt na pasta "Dificuldade"
+dentro da pasta contendo nosso jogo. Após você inserir a dificuldade você pode jogar à vontade!
+Clicando em Top Scores você vê os rankings dos melhores 5 jogadores e para sair do jogo é somente clicar na opção "Sair".
+Boa sorte no jogo e veremos qual o seu maior placar!     
