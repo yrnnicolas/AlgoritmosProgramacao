@@ -1,0 +1,1 @@
+Pasta contendo Práticas Adicionais, exercícios que não eram contabilizados, mas encorajados de se fazer.
