@@ -1,45 +1,54 @@
-# 📚 Algoritmos e Programação
+# 💻 Algoritmos e Programação
 
-Repositório com os exercícios, práticas e projetos desenvolvidos na disciplina de **Algoritmos e Programação**, do curso de **Ciência da Computação** na **UFRGS** (Universidade Federal do Rio Grande do Sul).
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Finalizado-success?style=for-the-badge" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/Linguagem-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+</p>
 
-O objetivo é registrar minha evolução ao longo da disciplina, servindo tanto como portfólio quanto como material de consulta para revisão dos conceitos estudados.
+## 📖 Sobre o Repositório
 
-## 🗂️ Estrutura do repositório
+Este repositório é dedicado a armazenar os códigos, listas de exercícios e trabalhos práticos desenvolvidos durante meus estudos na disciplina de **Algoritmos e Programação** do curso de **Bacharelado em Ciência da Computação** da **UFRGS**.
 
-| Pasta | Descrição |
-|---|---|
-| `Prática 1` a `Prática 15 B` | Exercícios práticos propostos ao longo do semestre, cobrindo desde lógica básica até estruturas mais avançadas |
-| `Práticas Adicionais` | Exercícios extras, feitos por conta própria para reforçar o conteúdo |
-| `EXEMPLO ATLETAS Prática 13` | Exemplo de aplicação prática usando manipulação de dados (cadastro/análise de atletas) |
-| `projetoSomaNicolas` | Pequeno projeto individual de soma/cálculo |
-| `FlappyInf/NicolasFagundeseEmanuelRauter` | Jogo inspirado no **Flappy Bird**, desenvolvido em dupla com um colega como projeto da disciplina |
+O objetivo principal destes códigos é consolidar a base da lógica de programação e o entendimento de algoritmos clássicos.
 
-> 💡 "Práticas" refere-se às listas de exercícios semanais da disciplina.
+## 📂 Estrutura do Repositório
 
-## 🎯 Sobre a disciplina
+Aqui está uma visão geral de como os arquivos estão organizados:
 
-Algoritmos e Programação é uma das disciplinas introdutórias do curso, com foco em:
-- Lógica de programação e estruturas de controle (condicionais, laços)
-- Estruturas de dados básicas (vetores, matrizes, structs)
-- Funções e modularização de código
-- Manipulação de arquivos
-- Resolução de problemas através de pseudocódigo e implementação
+```text
+📦 AlgoritmosProgramacao
+ ┣ 📂 Práticas                # Exercícios propostos pelo Professor
+ ┣ 📂 Práticas Adicionais     # Exercícios encorajados pelo Professor para fixação de conteúdo e diferentes padrões
+ ┣ 📂 FlappyInf               # Trabalho final da disciplina. Um jogo baseado no FlappyBird
+ ┗ 📜 README.md
+```
 
-## 🛠️ Tecnologias
+ # 🕹 FlappyInf
 
-<div align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-</div>
+  <img src="https://img.shields.io/badge/raylib-FFFFFF?style=for-the-badge&logo=raylib&logoColor=black" alt="Raylib" />
+</p>
 
-## 🎮 Destaque: FlappyInf
+O **FlappyInf** é um clone do clássico jogo Flappy Bird, desenvolvido inteiramente em **C** utilizando a biblioteca gráfica **Raylib**. Este projeto foi construído como trabalho final para a disciplina de Algoritmos e Programação do curso de Ciência da Computação da **UFRGS**.
 
-Um clone do clássico *Flappy Bird*, desenvolvido junto com meu colega Emanuel Rauter como projeto prático da disciplina, aplicando os conceitos de lógica, controle de estados e manipulação de eventos aprendidos em aula.
+O foco do projeto foi aplicar conceitos fundamentais de programação estruturada, como manipulação de ponteiros, alocação dinâmica e leitura/escrita de arquivos, em um cenário visual e interativo.
 
-## 👤 Autor
+## ⚙ Funcionalidades
 
-**Nicolas Fagundes**
-[GitHub](https://github.com/yrnnicolas) · [LinkedIn](https://www.linkedin.com/in/nicolas-fagundes-811643168/)
+* **Dificuldade Progressiva:** A velocidade e a complexidade dos obstáculos aumentam à medida que o jogador sobrevive por mais tempo, testando os reflexos do usuário.
+* **Configuração Dinâmica:** Os parâmetros principais do jogo (como gravidade, velocidade e tamanho dos canos) são carregados a partir de arquivos de texto (`.txt`). Isso permite alterar a física e o comportamento do jogo sem a necessidade de recompilar o código-fonte.
+* **Ranking Persistente:** Sistema de pontuação máxima (High Score) e placar de líderes. Os dados dos jogadores são salvos de forma segura utilizando arquivos binários (`.bin`), garantindo que o ranking seja mantido mesmo após fechar o jogo.
 
----
+## 🛠️ Aprendizados e Tecnologias
 
-<p align="center"><i>Repositório acadêmico — código produzido para fins de aprendizado durante a graduação.</i></p>
+* **Linguagem C:** Aprofundamento em controle de fluxo, estruturas (`structs`), ponteiros e manipulação de arquivos (texto e binários).
+* **Raylib:** Utilização da biblioteca para renderização 2D, controle de taxa de quadros (FPS), reprodução de áudio e captura de input (teclado).
+
+## 🚀 Como Executar
+
+Para rodar este projeto, você precisará de um compilador C (como o `gcc`) e a biblioteca **Raylib** instalada e configurada no seu sistema.
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/yrnnicolas/FlappyInf.git](https://github.com/yrnnicolas/FlappyInf.git)
